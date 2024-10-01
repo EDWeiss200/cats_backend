@@ -2,3 +2,5 @@ fastapi[standard]
 pydantic
 sqlalchemy
 python-dotenv
+uvicorn
+asyncpg
