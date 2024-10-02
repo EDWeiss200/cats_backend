@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from collections.abc import AsyncIterator
 from contextlib import asynccontextmanager
 
-from api.cat_router import router as cat_router
+from .api.cat_router import router as cat_router
 
 #from redis import asyncio as aioredis
 #from fastapi_cache import FastAPICache
