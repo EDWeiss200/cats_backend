@@ -1,7 +1,7 @@
 from typing import Annotated
 from sqlalchemy.orm import DeclarativeBase,Mapped,mapped_column,relationship
 from sqlalchemy import Boolean, ForeignKey, Integer, String, func, select,Column,MetaData
-from schemas.schemas import CatReadSchema
+from ..schemas.schemas import CatReadSchema
 
 intpk = Annotated[int, mapped_column(index = True,primary_key=True)]
 

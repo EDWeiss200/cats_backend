@@ -1,7 +1,7 @@
 from fastapi import APIRouter,Depends,HTTPException,Response,Cookie,Request
 from .dependencies import cat_service
-from schemas.schemas import CatAddSchema,Breed
-from services.cat_service import CatService
+from ..schemas.schemas import CatAddSchema,Breed
+from ..services.cat_service import CatService
 #from fastapi_cache.decorator import cache
 
 

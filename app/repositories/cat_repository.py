@@ -1,6 +1,6 @@
-from utils.repository import SQLAlchemyRepository
+from ..utils.repository import SQLAlchemyRepository
 
-from models.models import Cat
+from ..models.models import Cat
 
 class CatRepository(SQLAlchemyRepository):
 
