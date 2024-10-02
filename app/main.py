@@ -5,7 +5,7 @@ from contextlib import asynccontextmanager
 
 from api.cat_router import router as cat_router
 
-from redis import asyncio as aioredis
+#from redis import asyncio as aioredis
 #from fastapi_cache import FastAPICache
 #from fastapi_cache.backends.redis import RedisBackend
 
