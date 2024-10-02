@@ -6,4 +6,4 @@ uvicorn
 asyncpg
 fastapi-cache
 alembic
-psycopg2
+psycopg2-binary
