@@ -4,3 +4,4 @@ sqlalchemy
 python-dotenv
 uvicorn
 asyncpg
+fastapi-cache
