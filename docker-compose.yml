@@ -4,8 +4,11 @@ services:
     build: .
     ports:
       - "8000:80"
+    expose:
+      - "3000"
     depends_on:
       - db
+    
   db:
     image: postgres:15
     environment:
