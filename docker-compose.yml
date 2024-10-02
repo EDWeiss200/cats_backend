@@ -10,6 +10,8 @@ services:
       - 8008:8000
     environment:
       - DATABASE_URL=postgresql://postgres:Lexa2015@db:5432/cats-testwork
+    external_link:
+      - db
     depends_on:
       - db
   db:
