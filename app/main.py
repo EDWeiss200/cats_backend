@@ -29,5 +29,3 @@ async def helo_world():
 
 app.include_router(cat_router)
 
-
-uvicorn.run(app)
