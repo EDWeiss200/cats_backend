@@ -1,11 +1,8 @@
 version: '3.8'
 services:
   web:
-    build: .
-    ports:
-      - "8000:80"
-    expose:
-      - "3000"
+    build: 
+      context: ./app
     depends_on:
       - db
     
