@@ -1,5 +1,5 @@
 from fastapi import HTTPException
-from utils.repository import AbstractRepository
+from ..utils.repository import AbstractRepository
 from schemas.schemas import CatAddSchema,CatReadSchema,CatBreed
 
 
