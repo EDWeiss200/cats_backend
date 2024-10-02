@@ -23,7 +23,11 @@ app = FastAPI(
     #lifespan=lifespan
 )
 
+@app.get('')
+async def helo_world():
+    return "Hello World"
+
 app.include_router(cat_router)
 
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+
+uvicorn.run(app)
