@@ -1,0 +1,14 @@
+INSERT INTO cats(age,breed,color,description)
+VALUES (4,'persian','gray','Серый персидский кот');
+
+INSERT INTO cats(age,breed,color,description)
+VALUES (36,'sphynx','black','Черный кот породы сфинкс');
+
+INSERT INTO cats(age,breed,color,description)
+VALUES (1,'sphynx','orange','Оранжевая кошка породы сфинкс');
+
+INSERT INTO cats(age,breed,color,description)
+VALUES (8,'ragdoll','red','Красный кот возрастом в 8 месяцев');
+
+INSERT INTO cats(age,breed,color,description)
+VALUES (53,'siamese','white','Белый сиамский кот');

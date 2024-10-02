@@ -1,5 +1,5 @@
 from abc import ABC,abstractmethod
-from ..database.database import async_session_maker
+from database.database import async_session_maker
 from sqlalchemy import insert,select,delete,update,func,column,join,desc,distinct
 from sqlalchemy.orm import selectinload,load_only
 

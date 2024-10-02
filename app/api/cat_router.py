@@ -1,8 +1,8 @@
 from fastapi import APIRouter,Depends,HTTPException,Response,Cookie,Request
 from .dependencies import cat_service
-from ..schemas.schemas import CatAddSchema,Breed
-from ..services.cat_service import CatService
-#from fastapi_cache.decorator import cache
+from schemas.schemas import CatAddSchema,Breed
+from services.cat_service import CatService
+from fastapi_cache.decorator import cache
 
 
 router = APIRouter(
@@ -61,7 +61,7 @@ async def patch_cat(
 
 
 @router.get('')
-#@cache(expire=30)
+@cache(expire=30)
 async def get_all_cat(
     cat_service: CatService = Depends(cat_service)
 ):

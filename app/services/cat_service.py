@@ -1,6 +1,6 @@
 from fastapi import HTTPException
-from ..utils.repository import AbstractRepository
-from ..schemas.schemas import CatAddSchema,CatReadSchema,CatBreed
+from utils.repository import AbstractRepository
+from schemas.schemas import CatAddSchema,CatReadSchema,CatBreed
 
 
 class CatService:
