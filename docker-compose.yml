@@ -9,7 +9,7 @@ services:
     ports:
       - 8008:8000
     environment:
-      - DATABASE_URL=postgresql://cats-backend:12345@db:5432/cats-testwork
+      - DATABASE_URL=postgresql://postgres:12345@db:5432/cats-testwork
     depends_on:
       - db
   db:
@@ -19,7 +19,7 @@ services:
     expose:
       - 5432
     environment:
-      - POSTGRES_USER = cats-backend
+      - POSTGRES_USER = postgres
       - POSTGRES_PASSWORD= 12345
       - POSTGRES_DB=cats-testwork
 
