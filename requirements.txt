@@ -4,6 +4,6 @@ sqlalchemy
 python-dotenv
 uvicorn
 asyncpg
-fastapi-cache
+fastapi-cache2
 alembic
 psycopg2-binary
