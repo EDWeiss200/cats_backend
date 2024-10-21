@@ -26,5 +26,3 @@ app = FastAPI(
 
 
 app.include_router(cat_router)
-
-uvicorn.run(app)
