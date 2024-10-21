@@ -20,7 +20,6 @@ services:
       - 5432
     environment:
       - POSTGRES_USER=cats-backend
-      - POSTGRES_PASSWORD=12345
       - POSTGRES_DB=cats-testwork
 
 volumes:
