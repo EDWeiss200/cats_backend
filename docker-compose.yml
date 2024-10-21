@@ -20,7 +20,7 @@ services:
       - 5432
     environment:
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=Lexa2015
+      - POSTGRES_PASSWORD=12345
       - POSTGRES_DB=cats-testwork
 
 volumes:
