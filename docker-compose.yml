@@ -9,7 +9,7 @@ services:
     ports:
       - 8008:8000
     environment:
-      - DATABASE_URL=postgresql://postgres:Lexa2015@localhost:5432/cats-testwork
+      - DATABASE_URL=postgresql://postgres:Lexa2015@db:5432/cats-testwork
     depends_on:
       - db
   db:
@@ -19,10 +19,9 @@ services:
     expose:
       - 5432
     environment:
-      - POSTGRES_USER = postgres
-      - POSTGRES_PASSWORD= Lexa2015
-      - POSTGRES_HOST = localhost
-      - POSTGRES_DB = cats-testwork
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=Lexa2015
+      - POSTGRES_DB=cats-testwork
 
 volumes:
   postgres_data:
