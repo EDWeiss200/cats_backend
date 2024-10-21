@@ -7,3 +7,4 @@ asyncpg
 fastapi-cache2
 alembic
 psycopg2-binary
+redis
